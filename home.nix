@@ -136,19 +136,25 @@
     };
     style = ''
       * {
-        padding: 0 10px;
         background: transparent;
+        padding: 0px 5px;
         color: white;
         border: none;
+        min-width: 0px;
+        min-height: 0px;
+        font-size: 12px;
       }
 
+
       #workspaces button {
-        margin-left: -10px;
+        margin-left: 0px;
+        font-size: 9px;
+        border-bottom: 3px solid transparent;
+        border-radius: 0px;
       }
 
       #workspaces button.focused {
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: inset 0 -3px rgb(255, 0, 0);
+        border-bottom: 3px solid white;
       }
     '';
   };
